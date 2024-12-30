@@ -4,6 +4,7 @@
 ```bash
     curl --version
     # if curl is not present, install using following commands
+
     # apt install curl
     # Recheck the curl version to check the successful installation
 
@@ -12,4 +13,11 @@
     source ~/.bashrc
 
     nvm --version 
+
+    nvm list 
+
+    # Replace the <version> with actual version number like 18, 20 
+    nvm install <version> 
+
+    node --version
   ```
