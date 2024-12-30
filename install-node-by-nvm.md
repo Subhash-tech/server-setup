@@ -1,5 +1,7 @@
+### Objective: Install NodeJS via NVM
+
 [Github link for nvm](https://github.com/nvm-sh/nvm)
-1. Visit the above link and check the latest version of nvm and update the version part in the download link
+Visit the above link and check the latest version of nvm and update the version part in the download link
 
 ```bash
     curl --version
@@ -14,10 +16,10 @@
 
     nvm --version 
 
-    nvm list 
+    nvm list
 
-    # Replace the <version> with actual version number like 18, 20 
-    nvm install <version> 
+    # Replace the <version> with actual version number like 18, 20
+    nvm install <version>
 
     node --version
-  ```
+```
